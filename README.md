@@ -21,3 +21,5 @@ ser=server_receive(host="Dell",port=8080)
 ser.connect()
 </pre>
 
+<h3>License</h3>
+Distributed under the MIT License. See <b><a href=""> LICENSE </a></b>for more information.
