@@ -21,5 +21,5 @@ ser=server_receive(host="Dell",port=8080)
 ser.connect()
 </pre>
 
-<h3>License</h3>
+## License
 Distributed under the MIT License. See <b><a href="https://github.com/Vishal24102002/screenshare_lib/blob/main/LICENSE"> LICENSE </a></b>for more information.
