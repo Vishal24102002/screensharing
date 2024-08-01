@@ -6,6 +6,7 @@
 ## From Server-Side
 <pre lang='sh'>
 from screenshare import server
+import socket
 
 host=socket.gethostname()
 ser=server(host)
