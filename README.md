@@ -1,4 +1,4 @@
-# screenshare_lib
+# Screenshare_Lib
 
 ## Installation of Library
 <pre><code> pip install screenshare </code></pre>
