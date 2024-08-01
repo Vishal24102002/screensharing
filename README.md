@@ -6,7 +6,6 @@
 ## From Server-Side
 <pre lang='sh'>
 from screenshare import server
-import socket
 
 host=socket.gethostname()
 ser=server(host)
@@ -16,6 +15,7 @@ ser.create()
 ## From Client-Side
 <pre lang='sh'>
 from pypi.screenshare import server_receive
+  
 ser=server_receive(host="Dell",port=8080)
 ser.connect()
 </pre>
