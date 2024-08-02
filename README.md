@@ -3,7 +3,9 @@
 ## Installation of Library :
 <pre><code> pip install screenshare </code></pre>
 
-## From Server-Side :
+## Usage :
+
+### From Server-Side :
 <pre lang='sh'>
 from screenshare import server
 import socket
@@ -13,7 +15,7 @@ ser=server(host)
 ser.create()
 </pre>
 
-## From Client-Side :
+### From Client-Side :
 <pre lang='sh'>
 from pypi.screenshare import server_receive
   
