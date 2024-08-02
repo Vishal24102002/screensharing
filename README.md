@@ -11,6 +11,7 @@ from screenshare import server
 import socket
 
 host=socket.gethostname()
+print(host)
 ser=server(host)
 ser.create()
 </pre>
