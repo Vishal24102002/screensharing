@@ -1,9 +1,9 @@
 # Screenshare_Lib
 
-## Installation of Library
+## Installation of Library :
 <pre><code> pip install screenshare </code></pre>
 
-## From Server-Side
+## From Server-Side :
 <pre lang='sh'>
 from screenshare import server
 import socket
@@ -13,7 +13,7 @@ ser=server(host)
 ser.create()
 </pre>
 
-## From Client-Side
+## From Client-Side :
 <pre lang='sh'>
 from pypi.screenshare import server_receive
   
@@ -21,5 +21,8 @@ ser=server_receive(host="Dell",port=8080)
 ser.connect()
 </pre>
 
-## License
+## Releases :
+For the updated version Latest version.
+
+## License :
 Distributed under the MIT License. See <b><a href="https://github.com/Vishal24102002/screenshare_lib/blob/main/LICENSE"> LICENSE </a></b>for more information.
