@@ -15,7 +15,7 @@ The pip command to install ttkinter videos library for use
 
 ## Usage :
 
-### From Server-Side :
+### From Server-Side (sender) :
 <pre lang='sh'>
 from screenshare import server
 import socket
@@ -26,7 +26,7 @@ ser=server(host)
 ser.create()
 </pre>
 
-### From Client-Side :
+### From Client-Side (receiver) :
 <pre lang='sh'>
 from pypi.screenshare import server_receive
   
