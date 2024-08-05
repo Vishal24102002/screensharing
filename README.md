@@ -1,7 +1,7 @@
 # Screenshare_Lib
 Screenshare: Python module for sharing/casting your screen with others in realtime with
 fast &amp; accurate casting. Works best when connected to same network  Copyright © 2024 Coder-wis
-<vishalsharma.pypi@gmail.com>
+<vishalsharma659615@gmail.com>
 
 ## Coming updates :
 <ol>
@@ -10,7 +10,6 @@ fast &amp; accurate casting. Works best when connected to same network  Copyrigh
 </ol>
 
 ## Installation of Library :
-
 The pip command to install ttkinter videos library for use
 <pre><code> pip install screenshare </code></pre>
 
