@@ -5,8 +5,8 @@ fast &amp; accurate casting. Works best when connected to same network  Copyrigh
 
 ## Coming updates :
 <ol>
-  <li> Mouse Controlling </li>
-  <li> Voice Transfer features </li>
+  <li> Mouse Controlling </li> 0.0.3v
+  <li> Voice Transfer features </li> 0.0.4v
 </ol>
 
 ## Installation of Library :
@@ -39,7 +39,7 @@ screenshare.server_receive(host="Dell",port=8080).connect()
 </pre>
 
 ## Releases :
-For the updated version <b><a href="https://pypi.org/project/screensharing/"> \*\*Latest </a></b> version.
+For the updated version <b><a href="https://pypi.org/project/screensharing/"> \*\*LATEST </a></b> version.
 
 ## License :
 Distributed under the MIT License. See <b><a href="https://github.com/Vishal24102002/screenshare_lib/blob/main/LICENSE"> \*\*LICENSE </a></b>for more information.
