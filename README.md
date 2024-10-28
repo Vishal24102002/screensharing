@@ -17,20 +17,22 @@ The pip command to install ttkinter videos library for use
 
 ### From Server-Side (sender) :
 <pre lang='sh'>
-from screensharing import server
+import importlib
+screenshare = importlib.import_module("screenshare-main")
+
 import socket
 
 host=socket.gethostname()
-print(host)
-ser=server(host)
-ser.create()
+print("host : ",host)
+screenshare.server(host).create()
 </pre>
 
 ### From Client-Side (receiver) :
 <pre lang='sh'>
-from screensharing import server_receive
-  
-ser=server_receive(host="Dell",port=8080)
+import importlib
+screenshare = importlib.import_module("screenshare-main")
+
+ser=screenshare.server_receive(host="Dell",port=8080)
 ser.connect()
 </pre>
 
