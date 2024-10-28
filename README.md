@@ -14,7 +14,7 @@ The pip command to install ttkinter videos library for use
 <pre><code> pip install screensharing </code></pre>
 
 ## Usage :
-
+Notes **only for 0.0.2 version**
 ### From Server-Side (sender) :
 <pre lang='sh'>
 import importlib
