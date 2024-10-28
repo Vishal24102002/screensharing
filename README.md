@@ -10,16 +10,17 @@ fast &amp; accurate casting. Works best when connected to same network  Copyrigh
 </ol>
 
 ## Installation of Library :
-The pip command to install ttkinter videos library for use
+The pip command to install sreensharing library for use
 <pre><code> pip install screensharing </code></pre>
 
 ## Usage :
 \*\* Notes **only for 0.0.2 version**
 ### From Server-Side (sender) :
+
 <pre lang='sh'>
+# will change the import style later
 import importlib
 screenshare = importlib.import_module("screenshare-main")
-
 import socket
 
 host=socket.gethostname()
@@ -28,12 +29,13 @@ screenshare.server(host).create()
 </pre>
 
 ### From Client-Side (receiver) :
+
 <pre lang='sh'>
+# will change the import style later
 import importlib
 screenshare = importlib.import_module("screenshare-main")
 
-ser=screenshare.server_receive(host="Dell",port=8080)
-ser.connect()
+screenshare.server_receive(host="Dell",port=8080).connect()
 </pre>
 
 ## Releases :
