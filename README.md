@@ -28,7 +28,7 @@ ser.create()
 
 ### From Client-Side (receiver) :
 <pre lang='sh'>
-from pypi.screenshare import server_receive
+from screensharing import server_receive
   
 ser=server_receive(host="Dell",port=8080)
 ser.connect()
