@@ -1,5 +1,5 @@
-# Screensharing_Lib
-Screenshare: Python module for sharing/casting your screen with others in realtime with
+# screensharing
+Screensharing: Python module for sharing/casting your screen with others in realtime with
 fast &amp; accurate casting. Works best when connected to same network  Copyright © 2024 Coder-wis
 <vishalsharma659615@gmail.com>
 
